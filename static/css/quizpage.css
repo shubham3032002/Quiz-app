@@ -1,0 +1,45 @@
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .ul1 li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .ul1 li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .ul1 li a a:hover {
+    color: #0056b3;
+  }
+  .course-item {
+    display: inline-block;
+    background-color: rgb(14, 14, 15);
+    
+    margin: 30px;
+    padding: 40px;
+    border: 2px solid #050505;
+    text-align: center;
+    
+    
+  }
+  
+  .course-item a {
+    color: #000;
+    text-decoration: none;
+
+    
+  }
+  
+  .course-item a:hover {
+    color: #333;
+  }
+  

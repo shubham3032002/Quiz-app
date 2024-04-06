@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="cinatiner-score">
+    <h1>Your Quiz Score</h1>
+    {% if user_score %}
+        <p>You scored {{ user_score.score }}% in the {{ user_score.course.name }} quiz!</p>
+    {% else %}
+        <p>No score available.</p>
+    {% endif %}
+    <a href="{% url 'home' %}">Back to Home</a>
+    <a href="{% url 'quiz:scores' %}">GO to all quiz result</a>
+
+</div>
+{% endblock %}

@@ -1,0 +1,40 @@
+.allscore {
+    font-family: sans-serif; /* Set a basic font */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add some padding */
+  }
+  
+ .allscore h1 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Add space after the title */
+  }
+  
+  .allscore ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .allscore li {
+    margin-bottom: 15px; /* Add space between scores */
+  }
+  
+  .allscore a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 5px 10px; /* Add padding to links */
+    border: 1px solid #ddd; /* Add a thin border to links */
+    border-radius: 5px; /* Add rounded corners to links */
+    margin-right: 10px; /* Add space between links */
+    cursor: pointer; /* Make links look clickable */
+  }
+  
+  .allscore  a:hover {
+    background-color: #ddd; /* Change link background on hover */
+  }
+  .allscore li {
+    display: flex; /* Arrange score and course name side-by-side */
+    justify-content: space-between; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+  }
+  

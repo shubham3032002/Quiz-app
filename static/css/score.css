@@ -1,0 +1,32 @@
+.cinatiner-score {
+    font-family: sans-serif; 
+    margin: 0; 
+    padding: 20px; 
+  }
+  
+  .cinatiner-score h1 {
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+ .cinatiner-score p {
+    font-size: 18px; 
+    margin-bottom: 15px; 
+  }
+  
+  .cinatiner-score a {
+    color: #007bff; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    margin-right: 10px; 
+    cursor: pointer; 
+  }
+  
+  .cinatiner-score a:hover {
+    background-color: #ddd; 
+  }
+
+
+  
